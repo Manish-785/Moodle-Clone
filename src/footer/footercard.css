@@ -1,0 +1,17 @@
+.footercard{
+    position: relative;
+    top:100px;
+    align-items: center;
+    margin: 10px;
+    border: 10px white;
+    border-radius: 7px ;
+    background-color: gray;
+    width: 2000px;
+    height: 80px;
+    overflow-x: hidden;
+}
+
+#link{
+    color:white;
+    font-size: 45px;
+}

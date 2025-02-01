@@ -1,0 +1,11 @@
+.header{
+    position:relative;
+    left:100px;
+    top: -200px;
+}
+
+.buttons{
+    position:relative;
+    display: flex;
+    left: 900px;
+}
