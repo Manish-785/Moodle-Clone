@@ -1,0 +1,9 @@
+#about-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li{
+    font-size: 1.6rem;
+}
