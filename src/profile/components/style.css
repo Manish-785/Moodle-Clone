@@ -1,9 +1,39 @@
+@font-face {
+    font-family: 'Ubuntu Sans'; /* Custom name for the font */
+    src: url("D:\devcom\Moodle-Clone\src\assets\UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
+         url('fonts/your-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 #about-box{
     display: flex;
-    justify-content: space-evenly;
+    background-color: rgb(227, 229, 228);
 
 }
 
-li{
-    font-size: 1.6rem;
+.student-data{
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+    font-family:Ubuntu Sans,sans-serif ;
 }
+
+#middle-container{
+    display: flex;
+    align-items: center;  
+    height: 5rem;  
+}
+
+.btns{
+    height: 5rem;  
+    width: 9rem;
+    
+}
+
+#profile-name{
+    margin-left: 1rem;
+    
+}
+

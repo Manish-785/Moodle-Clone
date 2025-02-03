@@ -19,12 +19,12 @@ const signup = () => {
                         <input type="text" id='email' className='form-input' placeholder='email' />
                         <input type="text" id='ldap' className='form-input' placeholder='LDAP ID' />
                         <input type="password" id='password' className='form-input' placeholder='password' />
-                        <button id='signup-btn'>SignUP</button>
+                        <button id='signup-btn'>SignUP</button> 
                     </div>
                 </div>
                 <div id='footer'>
-                    <a href="#">help and support</a>
-                    <a href="#">Contact us</a>
+                    <a href="#" className='footer-a'>help and support</a>
+                    <a href="#" className='footer-a'>Contact us</a>
                 </div>
             </div>
         </>

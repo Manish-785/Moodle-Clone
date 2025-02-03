@@ -15,7 +15,7 @@ const landing = () => {
              </div>
 
              <div id='right-box' className='box'>
-               <p>Login with LDAP</p>
+               <p id='login-description'>Login with LDAP</p>
                <input type="text" id='ldap' className='form-input' placeholder='LDAP ID'/>
                <input type="password" id='password' className='form-input' placeholder='password'/>
                <button id='login-btn'>login</button>

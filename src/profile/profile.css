@@ -1,34 +1,90 @@
-/* div{
-    border: 1px solid red;
-  }
-   */
-  #body-container{
+@font-face {
+  font-family: 'Ubuntu Sans Mono'; /* Custom name for the font */
+  src: url("D:\devcom\Moodle-Clone\src\assets\UbuntuSansMono-VariableFont_wght.ttf") format('woff2'),
+       url('fonts/your-font.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Sans'; /* Custom name for the font */
+  src: url("D:\devcom\Moodle-Clone\src\assets\UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
+       url('fonts/your-font.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+#body-container{
       display: flex;
       height: 100%;
-      width: 98vw;
-  }
-  
+      width: 100vw;
+      margin: 0px;
+      margin-top: 0px;
+    }
+body{
+  margin: 0px;
+  padding: 0px;
+}  
   #left-container{
-    width: 13vw;
+    width: 10vw;
   }
   #right-container{
-    width: 87vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 0px;
+    padding-right: 0px;
   }
+
   #student-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 65vh;
+    background-image: url("D:\devcom\Moodle-Clone\src\assets\DALL·E 2025-02-02 16.07.01 - A minimalistic flat design featuring two layers of abstract amoeba-like shapes in different shades of dark blue, stacked on top of each other. The des 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 60px 60px;  
   }
   
-  #about-grades{
-    height: 40vh;
-  }
+
   
   ul{
     list-style: none;
   }
+
+#profile-photo{
+  width: 30%;
+  height: 30%;
+  margin-top: 10%;
+
+}
+#profile-name{
+  font-family: 'Ubuntu Sans Mono', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: black; 
+}
+
+#middle-container{
+  display: flex;
+  align-items: center;  
+  height: 5rem;  
+}
+.btns{
+    background-color: rgb(255, 255, 255);
+    font-family: Ubuntu Sans,sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: center; 
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+.btns span{
+  margin: 20px 5px 0px 70px;
+}

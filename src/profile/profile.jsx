@@ -1,59 +1,54 @@
-import { useState } from 'react'
-import './profile.css'
-import About from './components/About'
-import Grades from './components/Grades'
+import { useState } from 'react';
+import './profile.css';
+import About from './components/About';
+import Grades from './components/Grades';
+// import Settings from './components/Settings';
 
-function App() {
-  const [toggle, settoggle] = useState(true)
-  
-  const AboutToggle = () => {
-            settoggle(true);
-  }
+function App(props) {
+  const [activeComponent, setActiveComponent] = useState('About');
 
-  const GradesToggle = () => {
-            settoggle(false);
-  }
+  const handleToggle = (component) => {
+    setActiveComponent(component);
+  };
 
   return (
-    <>
-      <div id='body-container'>
-            <div id='left-container'></div>
-            <div id='right-container'> 
-              <div id='student-info'>
-                    <ul>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    </svg>
-
-                      <li>name</li>
-                      <li>roll number</li>
-                    </ul> 
-              </div>
-              <div id='about-grades'>
-                <button onClick={AboutToggle}>about</button>
-                <button onClick={GradesToggle}>grades</button> 
-        {toggle && (
-        <div>
-          <About
-             name = "ramesh"
-             email = "ramesh@gmail.com"
-             department = "cse"
-             ldapid = "24B0777"
-             mobilenumber = "9999999999"
-             />
+    <div id="body-container">
+      <div id="left-container"></div>
+      <div id="right-container">
+        <div id="student-info">
+          <img
+            src="D:/devcom/Moodle-Clone/src/assets/Vector.png"
+            alt="Profile"
+            id="profile-photo"
+            />
         </div>
-      )}
-        {!toggle && (
-          <div>
-          <Grades/>
-        </div>
-      )}
+        <div id="middle-container">
+          <button onClick={() => handleToggle('About')} id="about-btn" className='btns'>
+          <span>About </span>
+          </button>
+          <button onClick={() => handleToggle('Grades')} id="grade-btn" className='btns'> 
+          <span>Grades </span>
+          </button>
+          <button onClick={() => handleToggle('Settings')} id="setting-btn" className='btns'>
+          <span>Settings </span>
+          </button>
+        <span id="profile-name">{props.name}</span>
 
-              </div>
-            </div>
+        </div>
+          <div id='bottom-container'>
+            {activeComponent === 'About' && (
+              <About
+                rollnumber="24B6969"
+                year="3"
+                department="Civil Engineering"                
+              />
+            )}
+            {activeComponent === 'Grades' && <Grades />}
+            {/* {activeComponent === 'Settings' && <Settings />} */}
+        </div>
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

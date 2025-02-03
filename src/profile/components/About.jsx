@@ -6,22 +6,14 @@ const about = (props) => {
     <div id='about-box'>
       <ul id='question'>  
 
-      <li>name </li>
-      <li>email </li>
-      <li>department </li>
-      <li>ldapid </li>
-      <li>mobile number </li> 
-
-      </ul> 
-
-      <ul id='answer'>  
-      <li>{props.name}</li>
-      <li>{props.email}</li>
-      <li>{props.department}</li>
-      <li>{props.ldapid}</li>
-      <li>{props.mobilenumber}</li>  
+      <li className='student-data'>Roll Number:  {props.rollnumber} </li>
+      <hr />
+      <li className='student-data'>Academic Year:  {props.year} </li>
+      <hr />
+      <li className='student-data'>Department:  {props.department} </li> 
 
       </ul>
+
     </div>
   )
 }
