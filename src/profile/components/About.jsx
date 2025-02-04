@@ -11,6 +11,8 @@ const about = (props) => {
       <li className='student-data'>Academic Year:  {props.year} </li>
       <hr />
       <li className='student-data'>Department:  {props.department} </li> 
+      
+      
 
       </ul>
 

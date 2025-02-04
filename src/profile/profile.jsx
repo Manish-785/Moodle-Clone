@@ -9,6 +9,7 @@ function App(props) {
 
   const handleToggle = (component) => {
     setActiveComponent(component);
+
   };
 
   return (

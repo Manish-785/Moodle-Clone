@@ -14,13 +14,12 @@
   font-style: normal;
 }
 
-
 #body-container{
       display: flex;
       height: 100%;
       width: 100vw;
       margin: 0px;
-      margin-top: 0px;
+      padding: 0px;
     }
 body{
   margin: 0px;
@@ -39,19 +38,19 @@ body{
   }
 
   #student-info{
+    margin-top: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    height: 55vh;
     background-image: url("D:\devcom\Moodle-Clone\src\assets\DALL·E 2025-02-02 16.07.01 - A minimalistic flat design featuring two layers of abstract amoeba-like shapes in different shades of dark blue, stacked on top of each other. The des 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 0 60px 60px;  
   }
-  
-
-  
+    
   ul{
     list-style: none;
   }
@@ -72,9 +71,10 @@ body{
 #middle-container{
   display: flex;
   align-items: center;  
-  height: 5rem;  
+  height: 10rem;  
 }
 .btns{
+    height: 5rem;
     background-color: rgb(255, 255, 255);
     font-family: Ubuntu Sans,sans-serif;
     display: flex; 
@@ -84,7 +84,13 @@ body{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   }
-
+ 
+button:focus,
+button:focus-visible {
+     /* border-right:2px solid rgba(92, 75, 213, 1); */
+     border-bottom:2px solid rgba(92, 75, 213, 1); 
+    background: linear-gradient(to top, rgba(92, 75, 213, 1), rgba(92, 75, 213, 0)) bottom right / 2px 100% no-repeat;
+}
 .btns span{
   margin: 20px 5px 0px 70px;
 }
