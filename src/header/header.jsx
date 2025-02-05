@@ -5,13 +5,13 @@ function Header(props){
         window.location.href="";
     }
     const gradeswebpage=() => {
-        window.location.href="#grades";
+        window.location.href="/grades";
     }
     const participantswebpage=() => {
-        window.location.href="#participants";
+        window.location.href="/participants";
     }
     const competencieswebpage=() => {
-        window.location.href="#competenices";
+        window.location.href="/competenices";
     }
 
     return(<div className='header'>        
