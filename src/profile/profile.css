@@ -44,7 +44,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 60vh;
     background-image: url("D:\devcom\Moodle-Clone\src\assets\DALL·E 2025-02-02 16.07.01 - A minimalistic flat design featuring two layers of abstract amoeba-like shapes in different shades of dark blue, stacked on top of each other. The des 1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,10 +56,18 @@ body{
   }
 
 #profile-photo{
-  width: 30%;
-  height: 30%;
-  margin-top: 10%;
+    position: relative;
+    right: 40px;
+    top: 70px;
+    height: 60%;
 
+}
+
+#group-png{
+  position: absolute;
+  left: 759px;
+  top: 300px;
+  height: 10%;
 }
 #profile-name{
   font-family: 'Ubuntu Sans Mono', sans-serif;
