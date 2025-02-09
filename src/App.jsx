@@ -2,14 +2,10 @@ import NavBar from './NavBar/NavBar.jsx'
 import Header from './header/header.jsx'
 import RotatingCards from './rotatingcards/rotatingcards.jsx'
 import Footer from './footer/footer.jsx'
-<<<<<<< Updated upstream
-
-=======
 import Signup from './signup/signup.jsx'
 import Landing from './landing/landing.jsx'
 import React, { useState } from "react";
 import Profile from './profile/profile.jsx'
->>>>>>> Stashed changes
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min.js'
 // import NavBar from './NavBar/NavBar.jsx'
 // import Header from './header/header.jsx'
@@ -26,14 +22,6 @@ function App() {
   return(
     <Router>
       <Switch>
-<<<<<<< Updated upstream
-        <Route exact path="/course">
-          <div className='app'>
-          <NavBar></NavBar>
-          <Header course="CS666"></Header>
-          <RotatingCards></RotatingCards>
-          <Footer></Footer>
-=======
         <Route exact path="/"><Landing></Landing></Route>
         <Route exact path="/signup">
         <Signup></Signup>
@@ -52,21 +40,20 @@ function App() {
           <Header course="CS666" proff="Donald J. Trump" isOpen={isOpen}></Header>
           <RotatingCards isOpen={isOpen} heading="Recently Added"></RotatingCards>
           <Footer isOpen={isOpen}></Footer>
->>>>>>> Stashed changes
           </div>
         </Route>
      </Switch>
     </Router>
-    <div className='app'>
-      {/* <NavBar></NavBar>
-      <Header course="CS666"></Header>
-     <RotatingCards></RotatingCards>
-     <Footer></Footer>  */}
-     {/* <Landing></Landing>  */}
-     {/* <Signup></Signup>  */}
-     <Profile name ="Darsh Maheshvari"></Profile> 
+    // <div className='app'>
+    //   {/* <NavBar></NavBar>
+    //   <Header course="CS666"></Header>
+    //  <RotatingCards></RotatingCards>
+    //  <Footer></Footer>  */}
+    //  {/* <Landing></Landing>  */}
+    //  {/* <Signup></Signup>  */}
+    //  <Profile name ="Darsh Maheshvari"></Profile> 
      
-    </div>
+    // </div>
   )
   
 }
