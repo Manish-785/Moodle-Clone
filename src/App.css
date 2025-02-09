@@ -1,6 +1,11 @@
 .app{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     overflow-y: visible;
+=======
+    background-color: white;
+    overflow-y: auto;
+>>>>>>> Stashed changes
 =======
     background-color: white;
     overflow-y: auto;

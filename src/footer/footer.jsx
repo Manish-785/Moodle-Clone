@@ -5,12 +5,15 @@ import RotatingCards from '../rotatingcards/rotatingcards';
 import Participants from '../Participants/Participants';
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 function Footer(){
     return(
         <div className='footercards'>
             <FooterCard className="fc1"name="Announcements"></FooterCard>
           <FooterCard className="fc2" name="Course Content"></FooterCard>
 =======
+=======
+>>>>>>> Stashed changes
 function Footer(props) {
     const [activeAnnouncement, setActiveAnnouncement] = useState(false);
     const [activeAssignment, setActiveAssignment] = useState(false);
@@ -55,6 +58,9 @@ function Footer(props) {
                     <RotatingCards heading="Past Due"/>        
                 </div>
             )}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         </div>
     );

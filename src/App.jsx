@@ -5,8 +5,14 @@ import Footer from './footer/footer.jsx'
 import Signup from './signup/signup.jsx'
 import Landing from './landing/landing.jsx'
 import React, { useState } from "react";
+<<<<<<< Updated upstream
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min.js'
 import Profile from './profile/profile.jsx'
+=======
+import Profile from './profile/profile.jsx'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min.js'
+
+>>>>>>> Stashed changes
 import Navbar from "./Navbar";
 import Rotatingcards from "./rotatingCards.jsx";
 import Header2 from "./Header";
