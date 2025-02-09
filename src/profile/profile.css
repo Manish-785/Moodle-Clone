@@ -45,11 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 60vh;
-<<<<<<< Updated upstream
     background-image: url("D:\devcom\Moodle-Clone\src\assets\DALL·E 2025-02-02 16.07.01 - A minimalistic flat design featuring two layers of abstract amoeba-like shapes in different shades of dark blue, stacked on top of each other. The des 1.png");
-=======
-    background-image: url("C:\Users\Dell\OneDrive\문서\GitHub\Moodle-Clone\src\assets\DALL·E 2025-02-02 16.07.01 - A minimalistic flat design featuring two layers of abstract amoeba-like s.png");
->>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 0 60px 60px;  

@@ -5,16 +5,8 @@ import Footer from './footer/footer.jsx'
 import Signup from './signup/signup.jsx'
 import Landing from './landing/landing.jsx'
 import React, { useState } from "react";
-import Profile from './profile/profile.jsx'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min.js'
-// import NavBar from './NavBar/NavBar.jsx'
-// import Header from './header/header.jsx'
-// import RotatingCards from './rotatingcards/rotatingcards.jsx'
-// import Footer from './footer/footer.jsx'
-// import Landing from './landing/landing.jsx'
-// import Signup from './signup/signup.jsx'
 import Profile from './profile/profile.jsx'
-
 import Navbar from "./Navbar";
 import Rotatingcards from "./rotatingCards.jsx";
 import Header2 from "./Header";
