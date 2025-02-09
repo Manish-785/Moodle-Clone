@@ -16,6 +16,19 @@ function NavBar() {
                 <FaBars size={24} />
             </div>
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
+<<<<<<< Updated upstream
+=======
+                <div>
+                    <img id="logo" src={logo} alt="logo"/>
+                    <p id="name">&nbsp;&nbsp;IITB<br></br>
+                    MOODLE</p>
+                </div>
+                <div className="nav-bar-content">
+                    <a id="preferences" href="/preferences">Preferences</a>
+                    <a id="grades" href="/grades">Grades</a>
+                </div>
+                    <img id="user" src={user} alt="user"/>
+>>>>>>> Stashed changes
                  <div className="closebutton" onClick={toggleSideBar}>
                    <FaTimes size={24} />
                 </div>

@@ -4,7 +4,11 @@ import About from "./components/About";
 import Grades from "./components/Grades";
 
 
+<<<<<<< Updated upstream
 function App(props) {
+=======
+function Profile(props) {
+>>>>>>> Stashed changes
   const [activeComponent, setActiveComponent] = useState("About");
 
   useEffect(() => {
@@ -72,4 +76,8 @@ function App(props) {
   );
 }
 
+<<<<<<< Updated upstream
 export default App;
+=======
+export default Profile;
+>>>>>>> Stashed changes

@@ -1,0 +1,14 @@
+[33m40f1264[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m08fdeee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull --tags origin main: Fast-forward
+[33m061a574[m HEAD@{2}: reset: moving to HEAD~1
+[33m905933d[m HEAD@{3}: reset: moving to HEAD~1
+[33m883e427[m HEAD@{4}: reset: moving to ORIG_HEAD
+[33mdca61b5[m HEAD@{5}: commit (merge): Merge branch 'main' of https://github.com/Manish-785/Moodle-Clone
+[33m883e427[m HEAD@{6}: reset: moving to HEAD
+[33m883e427[m HEAD@{7}: commit: Updated Course Page
+[33m905933d[m HEAD@{8}: rebase (finish): returning to refs/heads/main
+[33m905933d[m HEAD@{9}: rebase (continue): Updated
+[33m061a574[m HEAD@{10}: pull --rebase (start): checkout 061a57477dd5a366b0d5595176a215a548e662fa
+[33m14b5288[m HEAD@{11}: commit: Updated
+[33me6a348e[m HEAD@{12}: commit: Course Page
+[33ma43dd97[m HEAD@{13}: initial pull

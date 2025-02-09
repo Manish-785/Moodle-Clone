@@ -1,0 +1,52 @@
+<<<<<<< Updated upstream
+=======
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin: 20px;
+}
+
+.footer {
+    position: relative;
+    top: 65vh;
+    left: -65vh;
+    height: fit-content;
+    bottom: 0;
+    background-color: white; 
+    transition: all 0.3s ease-in-out;
+    margin-top: auto;
+}
+
+#speaker {
+    position: relative;
+    height: 30px;
+    top: 10px;
+}
+.assignment-content .carousel-container{
+    position: relative;
+}
+.assignment-content .carousel-container .card-stack{
+    scale: 0.9;
+}
+
+.assignment-content{
+    z-index: 1;
+    margin: 0 auto;
+    height: 660px;
+    width: 90%;
+    position: absolute;
+    top: 10px;
+    left: 0vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> Stashed changes

@@ -1,3 +1,7 @@
+body{
+    overflow-y: auto;
+}
+
 .header{
     position:relative;
     left:100px;
@@ -8,4 +12,26 @@
     position:relative;
     display: flex;
     left: 900px;
+<<<<<<< Updated upstream
+=======
+}
+body{
+    background-color: white;;
+}
+
+#bgi{
+    position: absolute;
+    left: -100px;
+    z-index: 1;
+    width: 3000px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+#proff{
+    position: absolute;
+    left: 1200px;
+    top: 160px;
+    width:max-content;
+>>>>>>> Stashed changes
 }
