@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Julius Sans One'; /* Custom name for the font */
-  src: url("D:\devcom\Moodle-Clone\src\assets\JuliusSansOne-Regular.ttf") format('woff2'),
+  src: url("../assets/JuliusSansOne-Regular.ttf") format('woff2'),
        url('fonts/your-font.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ubuntu Sans'; /* Custom name for the font */
-  src: url("D:\devcom\Moodle-Clone\src\assets\UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
+  src: url("../assets/UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
        url('fonts/your-font.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -29,7 +29,7 @@ body{
   padding: 0px;
   display: flex;
   flex-direction: column;
-  background-image: url("D:\devcom\Moodle-Clone\src\assets\Landing.png");
+  background-image: url("../assets/Landing.png");
   background-repeat: no-repeat;
   background-size:cover;
   height: 100vh;

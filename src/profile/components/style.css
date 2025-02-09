@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Ubuntu Sans'; /* Custom name for the font */
-    src: url("D:\devcom\Moodle-Clone\src\assets\UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
+    src: url("../../assets/UbuntuSans-VariableFont_wdth,wght.ttf") format('woff2'),
          url('fonts/your-font.woff') format('woff');
-    font-weight: normal;
+    font-weight: bolder;
     font-style: normal;
   }
 
@@ -11,7 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 32vh;    
+    height: 30vh;    
+    border-radius: 0px 50px 0px 0px;
 
 }
 
@@ -22,7 +23,14 @@
     letter-spacing: 2px;
     font-family:Ubuntu Sans,sans-serif ;
 }
-
+.setting-list{
+    font-size: 1.2rem;
+    margin: 15px;
+    padding: 0px;
+    letter-spacing: 2px;
+    font-family:Ubuntu Sans,sans-serif ;
+    cursor: pointer;
+}
 #middle-container{
     display: flex;
     align-items: center;  
@@ -31,8 +39,7 @@
 
 .btns{
     height: 5rem;  
-    width: 9rem;
-    
+    width: 9rem; 
 }
 
 #profile-name{
@@ -45,3 +52,70 @@ hr{
     margin-left: 0px;
 }
 
+#grade-box{
+    background-color: rgb(227, 229, 228);
+    display: flex;
+    flex-direction: column;
+    height: 30vh; 
+    border-radius: 0px 50px 0px 0px;
+}
+
+.grade-list{
+    font-family:Ubuntu Sans,sans-serif;
+    color: black;
+}
+
+#grade-list{
+    margin-top: 12vh;
+}
+#course-name{
+    margin-right: 30vw;
+    margin-left: 3vh;
+}
+
+#grade{
+    margin-right: 7vw;
+    
+}
+
+#status{
+    margin-right: 7vw;
+}
+
+#grade-list hr{
+    width:95%;
+    margin-bottom: 5vh;
+}
+
+#setting-box{
+    background-color: rgb(227, 229, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-radius: 0px 50px 0px 0px;
+
+}
+
+#dropdown{
+    position: absolute;
+    display: block;
+    height: 5vh;
+    right: 5vw;
+    margin-top: 2vh;
+    font-family: Ubuntu Sans;
+    background-color: white;
+    
+}
+
+.dropdown-btn{
+    font-family: Ubuntu Sans;
+    background-color: white;
+}
+
+.dropdown-menu{
+    background-color: white;
+    font-family: "Ubuntu Sans", sans-serif;
+    cursor: pointer;
+} 

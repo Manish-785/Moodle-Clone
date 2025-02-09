@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./profile.css";
 import About from "./components/About";
 import Grades from "./components/Grades";
-
+import Setting from "./components/Setting";
 
 function App(props) {
   const [activeComponent, setActiveComponent] = useState("About");
@@ -22,7 +22,16 @@ function App(props) {
 
   return (
     <div id="body-container">
-      <div id="left-container"></div>
+      <div id="left-container">
+        <div id="left-child-container">
+          <img
+            src="/assets/NicePng_power-symbol-png_1641315 1.png"
+            alt="iitb-logo"
+            id="iitb-logo"
+          />
+          
+        </div>
+      </div>
       <div id="right-container">
         <div id="student-info">
           <img
@@ -48,9 +57,9 @@ function App(props) {
             <span>Grades</span>
           </button>
           <button
-            onClick={() => handleToggle("Settings")}
+            onClick={() => handleToggle("Setting")}
             id="setting-btn"
-            className={`btns ${activeComponent === "Settings" ? "active" : ""}`}
+            className={`btns ${activeComponent === "Setting" ? "active" : ""}`}
           >
             <span>Settings</span>
           </button>
@@ -63,13 +72,13 @@ function App(props) {
               year="3"
               department="Civil Engineering"
             />
-          )}
-          {activeComponent === "Grades" && <Grades />}
-          {/* {activeComponent === 'Settings' && <Settings />} */}
+          )}  
+          {activeComponent === "Grades" && <Grades coursename="MA105" grades="AA" status ="status" cpi="10" />}
+          {activeComponent === 'Setting' && <Setting/>}
         </div>
       </div>
     </div>
   );
 }
 
-export default App;
+export default App;  
