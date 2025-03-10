@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 import './landing.css'
 const landing = () => {
+  useEffect(() => {
+      
+  }, [])
+  
   return (
     <>
     <div id='main-container'>

@@ -2,8 +2,8 @@
 // import Header from './header/header.jsx'
 // import RotatingCards from './rotatingcards/rotatingcards.jsx'
 // import Footer from './footer/footer.jsx'
-// import Signup from './signup/signup.jsx'
-// import Landing from './landing/landing.jsx'
+import Signup from './signup/signup.jsx'
+import Landing from './landing/landing.jsx'
 // import React, { useState } from "react";
 import Profile from "./profile/profile.jsx"
 
@@ -31,9 +31,9 @@ function App() {
     //     </Route>
     //  </Switch>
     // </Router>
-    // <Profile name="Darsh Maheshvari"></Profile>    //done
-    // <Landing></Landing>   // done
-    // <Signup></Signup>      //done 
+    // <Profile name="Darsh Maheshvari"></Profile>    
+    // <Landing></Landing>   
+    <Signup></Signup>      
   )
   
 }

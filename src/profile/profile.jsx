@@ -4,6 +4,7 @@ import About from "./components/About";
 import Grades from "./components/Grades";
 import Setting from "./components/Setting";
 
+
 function App(props) {
   const [activeComponent, setActiveComponent] = useState("About");
 
